@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Indie Automotive</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+
+  
+  <body>
+    <navbar class="navigation-bar">
+    <nav class="navbar navbar-expand-lg" style="background-color:#123456;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="company logo (indie automotive).png" alt="" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link-active" aria-current="page" href="#">NEW CARS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-active" aria-current="page" href="#">USED CARS</a>
+              </li>
+            <form class="d-flex" role="search" style="color: white">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit" style="color: white"> Search </button>
+              <!-- <i class="bi bi-person-circle" style="font-size: 2rem;"></i> -->
+              <div class="dropdown">
+                <a class="btn btn-outline-light dropdown-toggle" style="color: white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5502/login.html">Login</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/indexx.html">Sign Up</a></li>
+                  <li><a class="dropdown-item" href="#">Test Drive</a></li>
+                  <li><a class="dropdown-item" href="#">Bookings</a></li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </navbar>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="cover1 - 774.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="cover-heading">FIND THE RIGHT CAR</h5>
+          <div class="cover-search-container">
+            <input class="cover-search" type="search" placeholder="Search" aria-label="Search">
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="cover2- 774.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="cover-heading">FIND THE RIGHT CAR</h5>
+            <div class="cover-search-container">
+              <input class="cover-search" type="search" placeholder="Search" aria-label="Search">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="cover 3-744.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="cover-heading">FIND THE RIGHT CAR</h5>
+            <div class="cover-search-container">
+              <input class="cover-search" type="search" placeholder="Search" aria-label="Search">
+            </div>       
+          </div> 
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+     
+
+
+  <section class="features">
+    <h4 class="features-cars-heading">Featured Cars</h4>
+    <div class="features-container">     
+      <div class="container1">
+        <img src="features-car/mghectorplus-features.jpg" alt="MG HECTOR PLUS" width="215px">
+              <h6>MG Hector Plus<br>
+                  Price: ₹17.71 Lakh onwards<br>
+                  On-road price,Mumbai    
+                  <button type="button" class="btn btn-outline-dark">View Price Breakup</button>
+     </div>
+     <div class="container1">
+      <img src="features-car/xuv700-features.jpg" alt="XUV 700" width="215px">
+               <h6>Mahindra XUV700<br>
+                   Price: ₹16.12 Lakh onwards<br>
+                   On-road price,Mumbai
+                   <span class="feature-btn">
+                    <button type="button" class="btn btn-outline-dark">View Price Breakup</button>
+                   </span></h6>
+     </div>
+     <div class="container1">
+      <img src="features-car/jeep-meridian-features.jpg" alt="JEEP MERIDIAN" width="215px">
+                <h6>Jeep Meridian<br>
+                Price: ₹31.59 Lakh onwards<br>
+                On-road price,Mumbai 
+                <button type="button" class="btn btn-outline-dark">View Price Breakup</button></h6>
+      </div>
+     <div class="container1">
+      <img src="features-car/range-rover-evoque-features.jpg" alt="RANGE ROVER EVOQUE" width="215px">
+                <h6>Range Rover Evoque<br>
+                Price: ₹79.71 Lakh onwards<br>
+                On-road price,Mumbai
+                <span class="feature-btn"><button type="button" class="btn btn-outline-dark">View Price Breakup</button></span></h6>
+     </div>
+
+     
+    </div>
+  </section>
+
+
+
+    <section class="brands">
+        <h4 class="brands-heading">All Brands</h4>
+        
+     <div class="brands-container"> 
+      <div class="brands-items items1">
+      <img src="car-logo/maruti-suzuki.jpg" alt="" width="88px">
+      <a class=" brands-names names1" href="#">Maruti Suzuki</a>
+      </div>
+      <div class="brands-items items2">
+        <img src="car-logo/hyundai.jpg" alt="" width="88px">
+        <a class=" brands-names names2" href="#">Hyundai</a>
+      </div>
+      <div class="brands-items items3">
+        <img src="car-logo/mahindra.jpg" alt="" width="88px">
+        <a class=" brands-names names3" href="#">Mahindra</a>
+      </div>
+      <div class="brands-items items4">
+        <img src="car-logo/tata.jpg" alt="" width="88px">
+        <a class=" brands-names names4" href="#">Tata</a>
+      </div>
+      <div class="brands-items items5">
+      <img src="car-logo/kia.jpg" alt="" width="88px">
+      <a class=" brands-names names5" href="#">Kia</a>
+      </div>
+      <div class="brands-items items6">
+        <img src="car-logo/mercedes-benz.jpg" alt="" width="88px">
+        <a class=" brands-names names6" href="#">Mercedes</a>
+      </div>
+      <div class="brands-items items7">
+        <img src="car-logo/bmw.jpg" alt="" width="88px">
+        <a class=" brands-names names7" href="#">BMW</a>
+      </div>
+      <div class="brands-items items8">
+        <img src="car-logo/volkswagen.jpg" alt="" width="88px">
+        <a class=" brands-names names8" href="#">Volkswagen</a>
+      </div>
+      <div class="brands-items items9">
+        <img src="car-logo/audi.jpg" alt="" width="88px">
+        <a class=" brands-names names9" href="#">Audi</a>
+      </div>
+      <div class="brands-items items10">
+        <img src="car-logo/jaguar.jpg" alt="" width="88px">
+        <a class=" brands-names names10" href="#">Jaguar</a>
+      </div>
+      <div class="brands-items items11">
+        <img src="car-logo/land-rover.jpg" alt="" width="88px">
+        <a class=" brands-names names11" href="#">Land Rover</a>
+      </div>
+      <div class="brands-items items12">
+        <img src="car-logo/volvo.jpg" alt="" width="88px">
+        <a class=" brands-names names12" href="#">Volvo</a>
+      </div>
+      <div class="brands-items items13">
+        <img src="car-logo/lexus.png" alt="" width="88px">
+        <a class=" brands-names names13" href="#">Lexus</a>
+      </div>
+      <div class="brands-items items14">
+        <img src="car-logo/mini.png" alt="" width="88px">
+        <a class=" brands-names names14" href="#">MINI</a>
+      </div>
+      <div class="brands-items items15">
+        <img src="car-logo/skoda.jpg" alt="" width="88px">
+        <a class=" brands-names names15" href="#">Skoda</a>
+      </div>
+      <div class="brands-items items16">
+        <img src="car-logo/lamborghini.jpg" alt="" width="88px">
+        <a class=" brands-names names16" href="#">Lamborghini</a>
+      </div>
+      <div class="brands-items items17">
+        <img src="car-logo/ferrari.png" alt="" width="88px">
+        <a class=" brands-names names17" href="#">Ferrari</a>
+      </div>
+      <div class="brands-items items18">
+        <img src="car-logo/porsche.jpg" alt="" width="88px">
+        <a class=" brands-names names18" href="#">Porsche</a>
+      </div>
+      <div class="brands-items items19">
+        <img src="car-logo/mclaren.jpg" alt="" width="88px">
+        <a class=" brands-names names19" href="#">McLaren</a>
+      </div>
+      <div class="brands-items items20">
+        <img src="car-logo/bugatti.png" alt="" width="88px">
+        <a class=" brands-names names20" href="#">Bugatti</a>
+      </div>
+      <div class="brands-items items21">
+        <img src="car-logo/rolls-royce.jpg" alt="" width="88px">
+        <a class=" brands-names names21" href="#">Rolls Royce</a>
+      </div>
+      <div class="brands-items items22">
+        <img src="car-logo/bentley.png" alt="" width="88px">
+        <a class=" brands-names names22" href="#">Bentley</a>
+      </div>
+      <div class="brands-items items23">
+        <img src="car-logo/tesla.jpg" alt="" width="88px">
+        <a class=" brands-names names23" href="#">Tesla</a>
+      </div>
+      <div class="brands-items items24">
+        <img src="car-logo/aston-martin.png" alt="" width="88px">
+        <a class=" brands-names names24" href="#">Aston Martin</a>
+      </div>  
+      <div class="brands-items items25">
+        <img src="car-logo/maserati.png" alt="" width="88px">
+        <a class=" brands-names names25" href="#">Maserati</a>
+      </div>
+  </section>
+
+
+
+  <section class="budget">
+    <h4 class="budget-heading">Find The Cars Of Your Choice</h4>
+      <div class="budget-container">
+
+        <div class="accordion d-flex flex-row" id="accordionExample">
+
+          <div class="accordion-item1">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <a class="budgetname-heading1" href="#">Budget </a>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div id="budget-container">      
+                 <a class="budget5l" href="#">Under 5 Lakh</a>
+                 <a class="budget10l" href="#">Under 10 Lakh</a>
+                 <a class="budget15l" href="#">Under 15 Lakh</a><br>
+                 <a class="budget20l"href="#">Under 20 Lakh</a>
+                 <a class="budget30l" href="#">Under 30 Lakh</a>
+                 <a class="budgetlux"href="#">Luxury Cars</a>         
+                </div>            
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item1">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <a class="budgetname-heading2" href="#">Body Type</a>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div id="body-type-container">
+                  <a class="suv" href="#"><img class="suvimg" src="Body Type/suv.svg" alt="#" width="90px"><div class="suv-name">SUV </div></a>
+                  <a class="sedan" href="#"><img class="suvimg" src="Body Type/sedan.svg" alt="#" width="90px"><div class="sedan-name">Sedan </div></a>
+                  <a class="convertible" href="#"><img class="suvimg" src="Body Type/convertible.svg" alt="#" width="90px"><div class="convertible-name">Convertible</div></a>
+                  <a class="minivan" href="#"><img class="suvimg" src="Body Type/hatchback.svg" alt="#" width="90px"><div class="minivan-name">Minivan</div></a><br>
+                  <a class="coupe" href="#"><img class="suvimg" src="Body Type/coupe.svg" alt="#" width="90px"><div class="coupe-name">Coupe</div></a>
+                  <a class="truck" href="#"><img class="suvimg" src="Body Type/minivan.svg" alt="#" width="90px"><div class="truck-name">Truck</div></a>
+                  <a class="hatchback" href="#"><img class="suvimg" src="Body Type/station_wagon.svg" alt="#" width="90px"><div class="hatchback-name">Hatchback</div></a>
+                  <a class="station" href="#"><img class="suvimg" src="Body Type/suv.svg" alt="#" width="90px"><div class="station-name">Station Wagon</div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item1">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="budgetname-heading3" href="#">Fuel Type</a>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body-fuel">
+               <a class="petrol"href="#"><img src="fuel-type/petrol.svg" alt="#" width="75px"><div class="petrol-name">Petrol</div></a>
+               <a class="diesel" href="#"><img src="fuel-type/diesel.svg" alt="#" width="75px"><div class="petrol-name">Diesel</div></a><br>
+               <a class="cng" href="#"><img src="fuel-type/cng.svg" alt="#" width="75px"><div class="petrol-name">CNG</div></a>
+               <a class="electric" href="#"><img src="fuel-type/electric.svg" alt="#" width="75px"><div class="petrol-name">Electric</div></a>
+              </div>
+            </div>
+          </div>
+        
+
+        <div class="accordion-item1">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <a class="budgetname-heading4" href="#">Transmission</a>
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body-transmission">
+              <a class="automatic" href="#"><img src="transmission/automatic_clr.svg" alt="#" width="65px"><div class="automatic-name">Automatic</div></a>
+              <a class="manual" href="#"><img src="transmission/manual.svg" alt="#" width="65px"><div class="manual-name">Manual</div></a>
+            </div>
+          </div>
+        </div>
+     
+
+      <div class="accordion-item1">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <a class="budgetname-heading5" href="#">Seating Capacity</a>
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body-seater">
+            <a href="#" class="seating1">5 Seater</a>
+            <a href="#" class="seating1">6 Seater</a><br>
+            <a href="#" class="seating1">7 Seater</a>
+            <a href="#" class="seating1">8 Seater</a>          
+          </div> 
+        </div>
+      </div>
+    
+        </div>
+      </div>
+  </section>    
+     
+
+<section class="lifestyle">
+ <div class="lifestyle-heading">
+  <h4>Cars by Lifestyle</h4>
+</div>
+  <div class="lifestyle-container1">
+    <h4 class="lifestyle-name1">ADVENTURE</h4> 
+    <p class="lifestyle-quote1">Take the longer way</p>
+    <h4 class="lifestyle-name2">FAMILY</h4>
+    <p class="lifestyle-quote2">Take everyone along</p>
+    <h4 class="lifestyle-name3">VALUE</h4>
+    <p class="lifestyle-quote3">Easy economic option</p>
+
+    <div class="lifestyle1">
+      <img class="lifestyle-img" src="Lifestyle/add blue.jpg" alt="#" width="405px" height="258px">
+      
+    </div>
+    <div class="lifestyle1">
+      <img class="lifestyle-img" src="Lifestyle/family ed.jpg" alt="#" width="405px" height="258px">
+    </div>
+    <div class="lifestyle1">
+      <img class="lifestyle-img" src="Lifestyle/value ed.jpg" alt="#" width="405px" height="258px">
+    </div>
+  </div>
+  <div class="lifestyle-container2">
+    <h4 class="lifestyle-name4">COMMUTER</h4> 
+    <p class="lifestyle-quote4">Your daily companion</p>
+    <h4 class="lifestyle-name5">LUXURY</h4>
+    <p class="lifestyle-quote5">Announce your arrival</p>
+    <h4 class="lifestyle-name6">FEATURES PACKED</h4>
+    <p class="lifestyle-quote6">Everything you need</p>
+    <div class="lifestyle2">
+      <img class="lifestyle-img" src="Lifestyle/commuter ed.jpg" alt="#" width="405px" height="258px">
+    </div>
+    <div class="lifestyle2">
+      <img class="lifestyle-img" src="Lifestyle/luxury ed.png" alt="#" width="405px" height="258px">
+    </div>
+    <div class="lifestyle2">
+      <img class="lifestyle-img" src="Lifestyle/feature ed.png" alt="#" width="405px" height="258px">
+    </div>
+  </div>
+  </div>
+</section>
+  
+<section class="top-cars">
+  <h4 class="top-cars-heading">Top Cars in India</h4>
+     <div class="top-cars-container">
+
+      <div class="top-cars-container1">
+        <img src="Top-Cars/Volkswagen.jpg" alt="Volswagen Virtus" width="210px">
+            <h6>Volkswagen Virtus<br>
+                Price: ₹13.41 Lakh onwards<br>
+                On-road price,Mumbai    
+                <button type="button" class="btn btn-outline-dark">View Price Breakup</button>              
+         </div>
+         <div class="top-cars-container2">
+          <img src="Top-Cars/Volvo.jpg" alt="Volvo S60" width="223px">
+              <h6>Volvo S60<br>
+                  Price: ₹25.42 Lakh onwards<br>
+                  On-road price,Mumbai    
+                  <button type="button" class="btn btn-outline-dark">View Price Breakup</button>
+         </div>
+         <div class="top-cars-container3">
+          <img class="top-cars-img3"src="Top-Cars/jaguar.jpg" alt="Hyundai Verna" width="228px">
+              <h6 class="top-cars-names3">Jaguar XF<br>
+                  Price: ₹34.08 Lakh onwards<br>
+                  On-road price,Mumbai    
+                  <button type="button" class="btn btn-outline-dark">View Price Breakup</button>
+         </div>
+         
+        <div class="top-cars-container4">
+          <img class="top-cars-img4" src="Top-Cars/Bmw.jpg" alt="Maruti Baleno" width="235px">
+              <h6 class="top-cars-names4">BMW 5 Series<br>
+                  Price: ₹65.55 Lakh onwards<br>
+                  On-road price,Mumbai    
+                  <button type="button" class="btn btn-outline-dark">View Price Breakup</button>
+              </div>                  
+     </div>                    
+</section>
+
+<section class="luxury">
+  <h4 class="luxury-heading">Luxury Cars</h4>
+    <div class="luxury-container">
+
+        <div class="luxury-container1">
+       <img src="Luxury-cars/Porsche.jpg" alt="" width="198px">
+       <h6>Porsche 781<br>
+       Price: ₹1.62 Crore onwards<br>
+       On-road price,Mumbai
+       <button type="button" class="btn btn-outline-dark">View Price Breakup</button></h6>  
+     </div>
+
+       <div class="luxury-container1">
+        <img src="Luxury-cars/Lamborghini.jpg" alt="" width="224px">
+        <h6>Lamborghini Hurican EVO<br>
+          Price: ₹3.80 Crore onwards<br>
+          On-road price,Mumbai    
+          <button type="button" class="btn btn-outline-dark">View Price Breakup</button></h6>
+       </div>
+
+       <div class="luxury-container1">
+        <img src="Luxury-cars/McLaren.jpg" alt="" width="210px">
+        <h6>McLaren720S<br>
+          Price: ₹5.35 Crore<br>
+          On-road price,Mumbai   
+          <button type="button" class="btn btn-outline-dark">View Price Breakup</button></h6>
+       </div>
+
+       <div class="luxury-container1">
+        <img src="Luxury-cars/Bugatti.jpg" alt="" width="210px">
+        <h6>Bugatti Chiron<br>
+          Price: ₹7.22 Crore onwards<br>
+          On-road price,Mumbai    
+          <button type="button" class="btn btn-outline-dark">View Price Breakup</button></h6>
+       </div>
+    </div>
+
+</section>
+
+<section class="subscribe">
+  <div class="subscribe-container">
+    <h2 class="subscribe-heading">Subscribe For Latest Updates</h2>
+    <p class="subscribe-quote">Get E-mail updates from Indie Automotive and stay up-to-date on all aspect of content.
+    <div class="subscribe-search-container">
+      <input class="subscribe-search" type="Search" placeholder="Enter your e-mail" aria-label="Search">
+    </div>
+
+  </div>
+</section>
+
+<section class="questions">
+  <div class="questions-heading">Frequently Asked Questions</div>
+
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Q. When & where can I take the test drive?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body9">
+          <p>You can schedule a home test drive for this Indie Automotive assured car at any date and time you find convenient using our test drive booking form.<br>
+             Your assigned Indie Automotive Relationship Manager will then reach out to you and make sure all the details of your preferred car are made <br>
+             available to you before arriving at your home on the selected date & time for the test drive.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Q. How do I make a booking for my chosen car?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body9">
+          <p>You can book a car of your liking for up to 5 days by putting a refundable deposit of Rs. 10,000/- on it. If you complete the purchase of the <br>
+            vehicle within the holding period, the deposit will be applied towards the purchase otherwise the booking amount will be refunded back to you<br>
+             and the booking cancelled.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Q. Will Indie Automotive help me in arranging for finance?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body9">
+          <p>Absolutely, buyers can choose to avail financing through Indie Automotive wherein we would get the loan processed through our finance partners.<br>
+             Our established partnerships help us process loans faster and get our customers better interest rates. Depending on your credit worthiness,<br>
+              you can avail used car loans through Indie Automotive at interest rates as low as 12.99% compared to the market rates of 14-16%.</p>
+        </div>
+      </div>
+    </div>
+
+ <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          Q. How can I avail the money back guarantee?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body9">
+          <p>At Indie Automotive we are only happy when you're happy. So if you don't absolutely love your new Indie Automotive Assured car, you can <br>
+            return it back within 5 days and upto 300 Kms of running (from the date of delivery) and your complete purchase amount will be refunded <br>
+            back to you within 7-9 working days, no-questions-asked</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+</section>
+</body>
+
+
+
+<footer id="footer">
+     <div class="indie-automotive">
+      <img class="indie-logo" src="company logo (indie automotive).png" alt="Indie Automotive Logo" width="410px">
+      <p class="indie-quote">Indie Automotive is the most trusted way of buying and selling used cars. Choose from over <br>
+         5000 fully inspected second-hand car models. Select online and book a test drive at your <br>
+         home. 
+         Get a no-questions-asked 5-day money back guarantee and a free one-year <br>
+         comprehensive 
+         service warranty with Assured Resale Value on every Indie Automotive Assured® car.</p>
+         <div class="icon-container">
+         <i class="bi bi-facebook" style="font-size: 1.9rem; color: #ffffff";></i>
+         <i class="bi bi-twitter" style="font-size: 1.9rem; color: #ffffff"></i>
+         <i class="bi bi-linkedin" style="font-size: 1.9rem; color: #ffffff"></i>
+         <i class="bi bi-instagram" style="font-size: 1.9rem; color: #ffffff"></i>
+        </div>
+        <div class="btn-container">
+        <button type="button" class="btn btn-danger"><i class="bi bi-telephone-fill"></i> 734-734-7498</button>
+        <button type="button" class="btn btn-warning"><i class="bi bi-envelope-fill"></i>indieautomotive@support.com</button>
+      </div>
+     </div>
+     <div class="overview">
+          OVERVIEW
+            <div class="overview-content">About Us</div>
+            <div class="overview-content">FAQs</div>
+            <div class="overview-content">Privacy Policy</div>
+            <div class="overview-content">Terms & Conditions</div>
+            <div class="overview-content">Finance</div>     
+    </div>
+     <div class="states">
+        <div class="used-cars">
+          BUY USED CARS IN
+          <p class="state-names">
+            Mumbai | Delhi | Hyderabad | Banglore | <br>
+            Pune | Gurgaon | Ahmedabad | Jaipur |   <br>
+            Chandigarh | Noida | Kolkata | Chennai |<br>
+          </p>
+        </div>
+        <div class="popular-cars">
+          POPULAR CARS IN INDIA
+         <p class="popular-cars-names">
+          Maruti Suzuki Baleno | Hyundai Verna | Tata Nexon |  <br>
+          Mahindra XUV700 | Kia Seltos | Volkswagen Virtus |   <br> 
+          MG Hector Plus | Mercedes-Benz S-Class | BMW M340i | <br>
+         </p>
+        </div>
+     </div>
+</footer>
+<section class="copyright">
+        Copyright &#169; 2023 Indie Automotive. All Rights Reserved.
+ </section>
+</html>

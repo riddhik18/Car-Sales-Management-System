@@ -1,0 +1,1140 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+.navigation-bar
+{ 
+  width: 100%;
+  position: fixed;
+  z-index: 101;
+  border-bottom: 1px solid;
+}
+.navbar-expand-lg
+{
+  padding: 2px;
+}
+.container-fluid
+{
+    display: flex;
+padding-left: 90px;
+}
+.nav-item
+{
+  padding-right: 10px;
+  padding-left: 35px;
+}
+.nav-link-active
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+.d-flex
+{
+  padding-left: 325px;
+ 
+}
+.me-2
+{
+  padding-right:95px;
+}
+.carousel-inner
+{
+  display: flex;
+  padding-top: 59px;
+}
+.cover-heading
+{
+  font-size: 40px;
+  justify-content:center ;
+  display: flex;
+  /* padding-bottom: 60px; */
+  color: rgb(255, 255, 255);
+} 
+.cover-search
+{
+  padding: 7px;
+  padding-right: 300px;
+}
+.cover-search-container
+{
+  padding: 60px;
+  display: inline-block;
+}
+.dropdown
+{
+ padding-left:12px ;
+}
+.dropdown-menu
+{
+  height: 30vh;
+  width: 220px;
+}
+.dropdown-item
+{
+  padding-left: 32px;
+  padding-bottom: 9px;
+  /* border-bottom: 1px solid; */
+}
+.features
+{
+  margin-top: 6vh;
+  background: rgb(255, 255, 255);  
+  width: 100vw;
+  height: 61vh;    
+}
+.features-cars-heading
+{
+  display: flex;
+  padding-left: 310px;
+  padding-top: 20px;
+  background: rgb(255, 255, 255);
+}
+.features-container
+{
+  display: flex;
+  /* max-height: 1200px; */
+  justify-content:center;
+  column-gap:15px;
+  height: 57vh;
+  background: rgb(255, 255, 255);
+}
+.features-container .container1
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.brands
+{
+  width: 100%;
+  height: 94vh;
+  background: rgb(255, 255, 255); 
+}
+.brands-heading
+{
+  padding-left: 674px;
+  height: 6vh;
+  background: rgb(255, 255, 255);
+}
+.brands-container
+{
+  display: grid;
+  height: 79vh;
+  grid-template-columns: 166px 166px 166px 166px 166px;
+  grid-template-rows: 106px 106px 106px 106px 106px;
+  padding-left: 311px;
+   background: rgb(255, 255, 255);
+}
+.brands-items
+{
+  border: 1px solid #c8c8c8;
+  padding-left: 38px;
+  padding-top: 15px;
+}
+.brands-names
+{
+  text-decoration: none;
+  color: #000000;
+}
+.items2
+{
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+
+.names2
+{
+  padding-left: 12px;
+}
+.names3
+{
+  padding-left: 11px;
+}
+.names4
+{
+  padding-left: 28px;
+}
+.names5
+{
+  padding-left: 33px;
+}
+.names6
+{
+  padding-left: 9px;
+}
+.names7
+{
+  padding-left: 25px;
+}
+.names8
+{
+  padding-left: 2px;
+}
+.names9
+{
+  padding-left: 28px;
+}
+.names10
+{
+  padding-left: 20px;
+}
+.names11
+{
+  padding-left: 4px;
+}
+.names12
+{
+  padding-left: 25px;
+}
+.names13
+{
+  padding-left: 25px;
+}
+.names14
+{
+  padding-left: 26px;
+}
+.names15
+{
+  padding-left: 21px;
+}
+/* .names16
+{
+
+} */
+.names17
+{
+  padding-left: 21px;
+}
+.names18
+{
+  padding-left: 18px;
+}
+.names19
+{
+  padding-left: 12px;
+}
+.names20
+{
+  padding-left: 21px;
+}
+.names21
+{
+  padding-left: 8px;
+}
+.names22
+{
+  padding-left: 17px;
+}
+.names23
+{
+  padding-left: 26px;
+}
+/* .names24
+{
+  
+} */
+.names25
+{
+  padding-left: 12px;
+}
+
+.accordion-body
+{
+  padding: 0px;
+  height: 357px;
+}
+.budget
+{
+  width: 100%;
+  height: 77vh;
+  /* background-image: url("gradient-background.jpg");
+  background-size:cover; */
+  background-color: #ffffff;
+
+}
+.budget-heading
+{
+  padding-left:217px ;
+  padding-top: 45px;  
+
+}
+#budget-container
+{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.budget-container
+{
+  /* padding-left: 218px; */
+  padding-top: 7px;
+}
+#accordionExample
+{
+  padding-left: 218px;
+  width: 830px;
+}
+
+.budgetname-heading1
+{
+  padding-right: 10px;
+  text-decoration: none;
+  color:#000000;
+}
+.budgetname-heading2
+{
+  padding-right: 10px;
+  text-decoration: none;
+  color:#000000;
+  width: 85px;
+}
+.budgetname-heading3
+{
+  padding-right: 10px;
+  text-decoration: none;
+  color:#000000;
+  width: 85px;
+}
+.budgetname-heading4
+{
+  padding-right: 10px;
+  text-decoration: none;
+  color:#000000;
+}
+.budgetname-heading5
+{
+  padding-right: 10px;
+  text-decoration: none;
+  color:#000000;
+  width: 130px;
+}
+#headingOne
+{
+  border: 1.5px solid;
+}
+#headingTwo
+{
+  border: 1px solid;
+}
+#headingThree
+{
+  border: 1px solid;
+}
+#headingFour
+{
+  border: 1px solid;
+}
+#headingFive
+{
+  border: 1px solid;
+}
+#collapseOne 
+{
+  background:#ffffff;
+  width: 500px;
+  height: 23vh;
+  border: 1px solid;
+}
+
+#collapseTwo
+{
+  background:#ffffff;
+  width: 500px;
+  height: 50vh;
+  border: 1px solid;
+}
+#body-type-container
+{
+  padding-left: 46px;
+  padding-top: 31px;
+}
+#collapseThree
+{
+  background:#ffffff;
+  width: 600px;
+  height: 23vh;
+  border: 1px solid;
+}
+#collapseFour
+{
+  background:#ffffff;
+  width: 375px;
+  height: 23vh;
+  border: 1px solid;
+} 
+#collapseFive
+{
+  background:#ffffff;
+  width: 600px;
+  height: 15vh;
+  padding-left: 29px;
+  padding-top: 24px;
+  border: 1px solid;
+}
+.accordion-body-fuel
+{
+  display: flex;
+  padding-left: 19px;
+  padding-top: 30px;
+}
+.accordion-body-seater
+{
+  display: flex;
+}
+.accordion-body-transmission
+{
+  padding-left: 44px;
+  padding-top: 26px;
+}
+.budget1 
+{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  border: 1px solid;
+  border-radius: 9999px;
+  padding-left: 11px;
+  height: 29px;
+  width: 120px;
+  display: inline-block;
+}
+.budget2 
+{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  height: 10px;
+  width: 10px;
+  border: 1px solid;
+  border-radius: 9999px;
+  padding-left: 71px;
+  display: inline-block;
+  height: 30px;
+  width: 20px;
+}
+.budget3 
+{
+  /* text-decoration: none;
+  color:rgb(0, 0, 0);
+  height: 10px;
+  width: 10px;
+  border: 1px solid;
+  border-radius: 9999px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px; */
+  padding-left: 56px;
+}
+.budget4 
+{
+  /* text-decoration: none;
+  color:rgb(0, 0, 0);
+  height: 10px;
+  width: 10px;
+  border: 1px solid;
+  border-radius: 9999px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px; */
+  padding-left: 11px;
+}
+.budget5 
+{
+  /* text-decoration: none;
+  color:rgb(0, 0, 0);
+  height: 10px;
+  width: 10px;
+  border: 1px solid;
+  border-radius: 9999px;
+  padding: 10px;
+  margin: 7px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px; */
+  padding-left: 62px;
+}
+.budget6
+{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  border: 1px solid;
+  border-radius: 9999px;
+  padding-left: 66px;
+}
+.budget5l
+{
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000000;
+  width: 135px;
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1000px;
+  margin: 10px;
+}
+.budget10l
+{
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000000;
+  width: 135px;
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1000px;
+  margin: 10px;
+}
+.budget15l
+{
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000000;
+  width: 135px;
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1000px;
+  margin: 10px;
+}
+.budget20l
+{
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000000;
+  width: 135px;
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1000px;
+  margin: 10px;
+}
+.budget30l
+{
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000000;
+  width: 135px;
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1000px;
+  margin: 10px;
+}
+.budgetlux
+{
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000000;
+  width: 135px;
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1000px;
+  margin: 10px;
+}
+.suv{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 10px;
+}
+.sedan{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 15px;  
+}
+.convertible{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 23px;
+}
+.minivan{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 4px;
+}
+.coupe{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 21px;
+}
+.truck{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 10px;
+}
+.hatchback{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 16px;
+}
+.station{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  height: 75px;
+  text-align: center;
+  padding-top: 10px;
+}
+.petrol{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 140px;
+  display: inline-block;
+  height: 90px;
+  text-align: center;
+  padding-top: 10px;
+}
+.diesel{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 140px;
+  display: inline-block;
+  height: 90px;
+  text-align: center;
+  padding-top: 10px;
+}
+.cng{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 140px;
+  display: inline-block;
+  height: 90px;
+  text-align: center;
+  padding-top: 10px;
+}
+.electric{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 140px;
+  display: inline-block;
+  height: 90px;
+  text-align: center;
+  padding-top: 10px;
+}
+.automatic
+{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 140px;
+  display: inline-block;
+  height: 110px;
+  text-align: center;
+  padding-top: 10px;
+}
+.manual
+{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  width: 140px;
+  display: inline-block;
+  height: 110px;
+  text-align: center;
+  padding-top: 10px;
+}
+.seating1
+{
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000000;
+  width: 135px;
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1000px;
+}
+.lifestyle
+{
+  width: 100%;
+  height: 670px;
+  background-image: url("big\ boys.jpg");
+}
+.lifestyle-heading
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 29px;
+  color: rgb(255, 255, 255);
+  font-weight:300;
+}
+.lifestyle-container1 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 14px;
+}
+.lifestyle-container2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.lifestyle1
+{
+  width: 405px;
+  height: 258px;
+  /* border: 1px solid; */
+  border-radius: 12px;
+  margin: 10px;
+}
+.lifestyle2
+{
+  width: 405px;
+  height: 258px;
+  /* border: 1px solid; */
+  border-radius: 12px;  
+  margin: 10px;
+}
+.lifestyle-img
+{
+  border-radius:12px ;
+}
+.lifestyle-name1
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-right: 886px;
+  padding-top: 193px;
+}
+.lifestyle-quote1
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-right: 886px;
+  padding-top: 222px;
+}
+.lifestyle-name2
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 193px;
+}
+.lifestyle-quote2
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 222px;
+}
+.lifestyle-name3
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 193px;
+  padding-left: 836px;
+}
+.lifestyle-quote3
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 222px;
+  padding-left: 836px;
+}
+.lifestyle-name4
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-right: 886px;
+  padding-top: 193px;
+}
+.lifestyle-quote4
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-right: 886px;
+  padding-top: 222px;
+}
+.lifestyle-name5
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 193px;
+}
+.lifestyle-quote5
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 222px;
+}
+.lifestyle-name6
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 193px;
+  padding-left: 836px;
+}
+.lifestyle-quote6
+{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-top: 222px;
+  padding-left: 836px;
+}
+.top-cars
+{
+  width: 100%;
+  height: 57vh;
+  background-color: rgb(255, 255, 255);
+}
+.top-cars-heading
+{
+  padding-top: 65px;
+  padding-left: 310px;
+}
+.top-cars-container
+{
+  display: flex;
+  
+}
+
+.top-cars-container
+{
+  display: flex;
+  /* max-height: 1200px; */
+  justify-content:center;
+  column-gap:15px;
+  height: 57vh;
+  background: rgb(255, 255, 255);
+}
+.top-cars-container1
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.top-cars-container2
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.top-cars-container3
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.top-cars-img3
+{
+  display:block;
+  padding-top:44px;
+}
+.top-cars-names3
+{
+  padding-top: 35px;
+}
+.top-cars-container4
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.top-cars-img4
+{
+  padding-top: 35px;
+}
+.top-cars-names4
+{
+  padding-top: 2px;
+}
+.luxury
+{
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(255, 255, 255);
+}
+.luxury-heading
+{
+  padding-top: 50px;
+  padding-left: 310px;
+}
+.luxury-container
+{
+  display: flex;
+  justify-content:center;
+  column-gap:15px;
+  height: 57vh;
+  background: rgb(255, 255, 255);
+}
+.luxury-container1
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.luxury-container1
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.luxury-container1
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.luxury-container1
+{ 
+  width: 270px;
+  height: 310px;
+  line-height: 185px;
+  background: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+.accordion-body9
+{
+  padding-left: 44px;
+  padding-top: 13px;
+}
+.subscribe-container
+{ 
+ background-image: url("subscribe.png");
+ background-size:100%;
+ width: 100%;
+ height: 50vh;
+ background-repeat: no-repeat ;
+}
+.subscribe-heading
+{
+  position:relative;
+  z-index: 100;
+  padding-top: 110px;  
+  padding-left: 546px;
+}
+.subscribe-quote
+{
+  display:flex;
+  justify-content: center;
+}
+.subscribe-search-container
+{
+  display: inline-block;
+  padding-left: 474px;
+  padding-top: 2px;
+}
+.subscribe-search
+{
+  padding: 8px;
+  padding-right: 346px;
+  border-radius: 23px;
+}
+.questions
+{
+  width: 100%;
+  height: 85vh;
+  background:#123456;
+}
+.questions-heading
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+  font-size: 24px;
+  color: #ffffff;
+}
+#accordionFlushExample
+{
+  width: 1328px;
+  padding-left: 227px;
+  padding-top: 30px;
+}
+.accordion-body9
+{
+  height: 14vh;
+}
+#footer
+{
+  width: 100%;
+  height: 52vh;
+  background-color:#002244;
+  display: flex;
+}
+.indie-automotive
+{
+  width: 45%;
+  height: 52vh;
+  background-color:#002244;
+  /* border: 1px solid; */
+}
+.indie-logo
+{
+  padding-left: 79px;
+  padding-top: 47px;
+  padding-right: 141px;
+}
+.indie-quote
+{
+  font-size: 15px;
+  padding-top: 18px;
+  padding-left: 79px;
+  color: #fafafa;
+}
+.bi 
+{ 
+  display: inline-block;
+  width: 50px;
+}
+.icon-container
+{
+  padding-left:79px;
+  line-height: 1px;
+}
+.btn-container
+{
+  padding-left: 79px;
+  padding-top: 18px;
+  display: flex;
+  gap: 20px;
+}
+.overview
+{ 
+  padding-top: 47px;
+  padding-left: 126px;
+  width: 20%;
+  height: 52vh;
+  background-color:#002244;
+  /* border: 1px solid; */
+  color: #fafafa;
+}
+.overview-content
+{
+  list-style: none;
+  line-height: 19px; 
+  padding-top: 14px;
+}
+.states
+{
+  width: 35%;
+  height: 52vh;
+  background-color: #002244;
+  /* border: 1px solid; */
+}
+.used-cars
+{
+  padding-left: 70px;
+  padding-top: 47px;
+  color: #fafafa;
+}
+.state-names
+{
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fafafa;
+}
+.popular-cars
+{
+  padding-left: 70px;
+  padding-top: 21px;
+  color: #fafafa;
+}
+.popular-cars-names
+{
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fafafa;
+}
+.copyright
+{ 
+  display: flex;
+  width: 100%;
+  height: 8vh;
+  background-color:#002244;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid;
+  color: #fafafa;
+}
